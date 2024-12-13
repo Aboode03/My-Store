@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Store</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+  <!-- Navbar -->
+  <header class="bg-white shadow">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold text-blue-500">My Store</h1>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="#" class="text-gray-600 hover:text-blue-500">Home</a></li>
+          <li><a href="#" class="text-gray-600 hover:text-blue-500">Products</a></li>
+          <li><a href="#" class="text-gray-600 hover:text-blue-500">About</a></li>
+          <li><a href="#" class="text-gray-600 hover:text-blue-500">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container mx-auto px-4 py-8">
+    <section class="text-center mb-8">
+      <h2 class="text-2xl font-bold text-gray-800">Our Products</h2>
+      <p class="text-gray-600">Discover our exclusive product range</p>
+    </section>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Product 1 -->
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+        <div class="w-full h-48 bg-gray-300 flex items-center justify-center">
+          <span class="text-gray-500">300 x 200</span>
+        </div>
+        <div class="p-4">
+          <h3 class="text-lg font-bold text-gray-800">Product 1</h3>
+          <p class="text-gray-600">A short product description goes here.</p>
+          <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Buy Now</button>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+        <div class="w-full h-48 bg-gray-300 flex items-center justify-center">
+          <span class="text-gray-500">300 x 200</span>
+        </div>
+        <div class="p-4">
+          <h3 class="text-lg font-bold text-gray-800">Product 2</h3>
+          <p class="text-gray-600">A short product description goes here.</p>
+          <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center py-4">
+    <p>&copy; 2024 My Store. All rights reserved.</p>
+  </footer>
+</body>
+</html>
